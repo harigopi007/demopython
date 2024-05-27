@@ -1,0 +1,21 @@
+.banner{ 
+  width: 100%;
+  height: 200px;
+  background: rgb(218, 187, 187);
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {background-color: rgb(57, 57, 66);}
+}
+
+
+.banner-text{
+    font-family: fantasy;font-size: 20%;
+    font-family: "Audiowide", sans-serif;
+top: 40%;
+left: 40%;
+bottom: 10;
+position: absolute;
+transform: matrix3d();
+}
